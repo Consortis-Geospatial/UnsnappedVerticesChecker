@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="85" height="85" alt="icon" src="https://github.com/user-attachments/assets/ab17eb1b-30b3-4bd8-9776-c0f5378fe49c" />
+  <img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/ab17eb1b-30b3-4bd8-9776-c0f5378fe49c" />
 </div>
 
 
@@ -85,7 +85,7 @@ Coming Soon...
 ---
 
 <div align="center">
-  <img width="85" height="85" alt="icon" src="https://github.com/user-attachments/assets/ab17eb1b-30b3-4bd8-9776-c0f5378fe49c" />
+  <img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/ab17eb1b-30b3-4bd8-9776-c0f5378fe49c" />
 </div>
 
 ## License
