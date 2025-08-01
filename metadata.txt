@@ -1,9 +1,20 @@
 [general]
-name=Consortis Geospatial UnsnappedVerticesChecker
-description=Έλεγχος μη αγκυρωμένου οδικού δικτύου με δυνατότητα ορισμού απόστασης μεταξύ των γραμμών.
-author=Consortis Geospatial
-version=3.2
-qgisMinimumVersion=3.10
+name=UnsnappedVerticesChecker
+description=Identifies nearby unconnected vertices between different line features.
+about=UnsnappedVerticesChecker is a QGIS plugin designed to detect vertices that are spatially close to each other but belong to different line features and are not snapped together. These unsnapped connections may indicate topological errors, such as road segments that appear connected but aren't.
+
+ Users can define a proximity threshold in meters. The plugin will analyze the vertices in the active line layer and report cases where different features have vertices that are closer than the threshold but are not connected. The results are displayed in an interactive dock with zoom-to-feature functionality and can be exported as a point shapefile marking the midpoints of flagged pairs.
+
+ The plugin supports both full-layer scans and selected-feature-only analysis.
+version=1.0
+qgisMinimumVersion=3.0
+author=Gkaravelis Andreas - Consortis Geospatial
 email=gkaravelis@consortis.gr
 category=Vector
+homepage=https://github.com/Consortis-Geospatial
+tracker=https://github.com/Consortis-Geospatial/UnsnappedVerticesChecker/issues
+repository=https://github.com/Consortis-Geospatial/UnsnappedVerticesChecker
+experimental=False
+deprecated=False
 icon=icon.png
+tags=Topology, Connectivity, Roadnetwork, GeometryCheck, QA
